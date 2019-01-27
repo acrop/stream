@@ -358,6 +358,7 @@ declare module "modbus-stream" {
         dataBits?: number;
         stopBits?: number;
         parity?: string;
+        serialport?: any;
     }
 
     class SerialDriver {
